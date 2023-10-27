@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TheClothes</title>
+    <!-- CSS Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- CSS Eksternal -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- Link Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Old+Standard+TT&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg shadow-sm p-3 fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-3" href="#">TheClothes</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-dark fs-5 m-0 ms-lg-3" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark fs-5 m-0 ms-lg-3" href="#about"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark fs-5 m-0 ms-lg-3" href="#new"
+                >New Arrivals</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark fs-5 m-0 ms-lg-3" href="#collections"
+                >Collections</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark fs-5 m-0 ms-lg-3" href="#contact"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="search px-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Start -->
+    <section id="home" class="home">
+      <div class="container py-5">
+        <div class="row py-4">
+          <div class="col-lg-7 py-5 mt-5">
+            <h3 class="pt-5">New Collection</h3>
+            <h2>
+              Almahyra <br />
+              Scarf
+            </h2>
+            <a href="#" class="shop mt-2">Shop Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero End -->
+
+    <!-- About Start -->
+    <section id="about">
+      <div class="container">
+        <div class="title text-center mb-4 mt-5">
+          <h1 class="fw-bold">About Us</h1>
+        </div>
+        <div class="row text-center">
+          <p>
+            TheClothes is a brand from Indonesia that produces various types of
+            clothing models with a modern style. Our products are also available
+            in online and offline stores. We have products that can meet your
+            fashion needs, ranging from dresses, hijabs, jeans, blazers,
+            sweaters and many more.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About End -->
+
+    <!-- New Arrivals Start -->
+    <section id="new">
+      <div class="container">
+        <div class="title text-center mb-4 mt-5">
+          <h1 class="fw-bold">New Arrivals</h1>
+        </div>
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="./assets/img/foto14.png" class="card-img-top" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Cozy Sweater</h5>
+                <p class="card-text fw-bold">IDR 190.000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="./assets/img/foto11.jpg" class="card-img-top" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Almahyra Scarf</h5>
+                <p class="card-text fw-bold">IDR 90.000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="./assets/img/foto13.png" class="card-img-top" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Midori Coat</h5>
+                <p class="card-text fw-bold">IDR 239.000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="./assets/img/foto6.png" class="card-img-top" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Knit Wear</h5>
+                <p class="card-text fw-bold">IDR 239.000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- New Arrivals End -->
+
+    <!-- Collections Start -->
+    <section id="collections">
+      <div class="container">
+        <div class="title text-center mb-4 mt-5">
+          <h1 class="fw-bold">Collections</h1>
+        </div>
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="./assets/img/foto2.jpg" class="card-img-top" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Glamorous</h5>
+                <p class="card-text fw-bold">IDR 269.000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="./assets/img/foto4.jpg" class="card-img-top" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Blazy</h5>
+                <p class="card-text fw-bold">IDR 549.000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="./assets/img/foto8.jpg" class="card-img-top" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Palette Shirt</h5>
+                <p class="card-text fw-bold">IDR 149.000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="./assets/img/foto7.jpg" class="card-img-top" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Polkadote Set</h5>
+                <p class="card-text fw-bold">IDR 659.000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="./assets/img/foto2.png" class="card-img-top" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Overalls Jeans</h5>
+                <p class="card-text fw-bold">IDR 320.000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="./assets/img/foto3.png" class="card-img-top" />
+              <div class="card-body text-center">
+                <h5 class="card-title">New Jeans</h5>
+                <p class="card-text fw-bold">IDR 500.000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="./assets/img/foto5.png" class="card-img-top" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Alina Scarf</h5>
+                <p class="card-text fw-bold">IDR 90.000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="./assets/img/foto3.jpg" class="card-img-top" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Blazy</h5>
+                <p class="card-text fw-bold">IDR 549.000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="./assets/img/foto10.png" class="card-img-top" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Loose Dress</h5>
+                <p class="card-text fw-bold">IDR 329.000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="./assets/img/foto9.png" class="card-img-top" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Loose Dress</h5>
+                <p class="card-text fw-bold">IDR 329.000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="./assets/img/foto11.png" class="card-img-top" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Overalls Jeans</h5>
+                <p class="card-text fw-bold">IDR 320.000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="./assets/img/foto12.png" class="card-img-top" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Palette Shirt</h5>
+                <p class="card-text fw-bold">IDR 149.000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Collections End -->
+
+    <!-- Contact Start -->
+    <section id="contact">
+      <div class="container">
+        <div class="title text-center mb-4 mt-5">
+          <h1 class="fw-bold">Contact Us</h1>
+        </div>
+        <form>
+          <div class="row">
+            <div class="col-12">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Full Name</label
+                >
+                <input
+                  type="text"
+                  class="form-control p-3"
+                  id="exampleInputEmail1"
+                  placeholder="Full name"
+                />
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email Address</label
+                >
+                <input
+                  type="email"
+                  class="form-control p-3"
+                  id="exampleInputEmail1"
+                  placeholder="youremail@gmail.com"
+                />
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Phone Number</label
+                >
+                <input
+                  type="text"
+                  class="form-control p-3"
+                  placeholder="example: 081234567890"
+                />
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Your Message</label
+                >
+                <textarea
+                  class="form-control p-3"
+                  placeholder="Your message..."
+                ></textarea>
+              </div>
+            </div>
+          </div>
+          <button type="submit" class="btn">Submit</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact End -->
+
+    <!-- News Start -->
+    <section class="news">
+      <div class="container py-5 mt-5 justify-content-center">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 text-center">
+            <h5 class="fw-bold">Our Compant</h5>
+            <p>About Us</p>
+            <p>New Arrivals</p>
+            <p>Collections</p>
+            <p>Contact</p>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center">
+            <h5 class="fw-bold text-center">Social Media</h5>
+            <div class="logo fs-2 text-center">
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-x-twitter"></i>
+              <i class="fa-brands fa-tiktok"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center">
+            <h5 class="fw-bold text-center">Official Store</h5>
+            <div class="store text-center">
+              <img src="./assets/img/shopee.png" alt="" width="37px" />
+              <img src="./assets/img/tokopedia.png" alt="" width="60px" />
+              <img src="./assets/img/lazada.png" alt="" width="60px" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- News End -->
+
+    <!-- Footer Start -->
+    <footer class="bg-light p-4 text-center mt-5">
+      Copyright © 2023 Kamilah Falah Syifa. All Rights Reserved
+    </footer>
+    <!-- Footer End -->
+
+    <!-- JS Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
